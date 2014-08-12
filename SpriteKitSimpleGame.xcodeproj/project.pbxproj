@@ -24,6 +24,9 @@
 		323D1A521993F7F3006BD6ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323D1A2D1993F7F3006BD6ED /* UIKit.framework */; };
 		323D1A5A1993F7F3006BD6ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 323D1A581993F7F3006BD6ED /* InfoPlist.strings */; };
 		323D1A5C1993F7F3006BD6ED /* SpriteKitSimpleGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323D1A5B1993F7F3006BD6ED /* SpriteKitSimpleGameTests.m */; };
+		323D1A6A1993FD4A006BD6ED /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 323D1A671993FD4A006BD6ED /* background-music-aac.caf */; };
+		323D1A6B1993FD4A006BD6ED /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 323D1A681993FD4A006BD6ED /* pew-pew-lei.caf */; };
+		323D1A6C1993FD4A006BD6ED /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 323D1A691993FD4A006BD6ED /* sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		323D1A571993F7F3006BD6ED /* SpriteKitSimpleGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitSimpleGameTests-Info.plist"; sourceTree = "<group>"; };
 		323D1A591993F7F3006BD6ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		323D1A5B1993F7F3006BD6ED /* SpriteKitSimpleGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitSimpleGameTests.m; sourceTree = "<group>"; };
+		323D1A671993FD4A006BD6ED /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		323D1A681993FD4A006BD6ED /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		323D1A691993FD4A006BD6ED /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 				323D1A551993F7F3006BD6ED /* SpriteKitSimpleGameTests */,
 				323D1A281993F7F3006BD6ED /* Frameworks */,
 				323D1A271993F7F3006BD6ED /* Products */,
+				323D1A651993FD4A006BD6ED /* SpriteKitSimpleGameResources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +169,24 @@
 				323D1A581993F7F3006BD6ED /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		323D1A651993FD4A006BD6ED /* SpriteKitSimpleGameResources */ = {
+			isa = PBXGroup;
+			children = (
+				323D1A661993FD4A006BD6ED /* Sounds */,
+				323D1A691993FD4A006BD6ED /* sprites.atlas */,
+			);
+			path = SpriteKitSimpleGameResources;
+			sourceTree = "<group>";
+		};
+		323D1A661993FD4A006BD6ED /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				323D1A671993FD4A006BD6ED /* background-music-aac.caf */,
+				323D1A681993FD4A006BD6ED /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,10 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323D1A6C1993FD4A006BD6ED /* sprites.atlas in Resources */,
+				323D1A6A1993FD4A006BD6ED /* background-music-aac.caf in Resources */,
 				323D1A361993F7F3006BD6ED /* InfoPlist.strings in Resources */,
 				323D1A491993F7F3006BD6ED /* Images.xcassets in Resources */,
 				323D1A471993F7F3006BD6ED /* Spaceship.png in Resources */,
 				323D1A3F1993F7F3006BD6ED /* Main.storyboard in Resources */,
+				323D1A6B1993FD4A006BD6ED /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
