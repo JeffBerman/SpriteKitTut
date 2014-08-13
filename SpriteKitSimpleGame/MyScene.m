@@ -18,7 +18,10 @@
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
         NSLog(@"Size: %@", NSStringFromCGSize(size));
-        
+        self.backgroundColor = [SKColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
+        self.player = [SKSpriteNode spriteNodeWithImageNamed:@"player"];
+        self.player.position = CGPointMake(self.player.size.width/2, self.frame.size.height/2);
+        [self addChild:self.player];
         
     }
     return self;
